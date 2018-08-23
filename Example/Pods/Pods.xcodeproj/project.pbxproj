@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05EE32DF04B098DBD86F0FEF90137C69 /* Pods-CGReformerKeysKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA31728A8411064F90454902CB21193 /* Pods-CGReformerKeysKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17395D5D72AA13772DD582D6F7EB3B11 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3900708662BC21E81DC330A165B2E /* ReplaceMe.m */; };
+		2E70129012B1B39E4F82C5F22AB98A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		486018EC56FCD38C60BF3EA75A08B788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		51FCF8BC02D01BD798D7A40D029ED8A0 /* FFSpecialListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1894DC1ADCA0DEA74368A39ADC6A01 /* FFSpecialListReformerKeys.m */; };
+		5CD98E847ED367537BF8E3FFD06403A1 /* Pods-CGReformerKeysKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9110AD12BFAF5E985AF0C61BA6583823 /* Pods-CGReformerKeysKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBE55F7B799F9BDC968DA2BEF3F85CE /* FFSpecialListReformerKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 84605DDF51BDBE530CBA55205A0D2D74 /* FFSpecialListReformerKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B9753F7814BD96321DFFFDD78F4720 /* CGReformerKeysKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AAF0195527080951D58507135185CC /* CGReformerKeysKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ECD00E616AD673DBDABB633DAAC890B /* CGReformerKeysKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B858D6C1457DBAAC7F91222A5B0D780 /* CGReformerKeysKit-dummy.m */; };
+		84EE5E0B696509C17605819E3CC41385 /* Pods-CGReformerKeysKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE55A1AF5C5B9C8DBEB1808F9948B58 /* Pods-CGReformerKeysKit_Tests-dummy.m */; };
+		A242E62A006095CF68122F32E535C522 /* FFAuthorListReformerKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCFE5579D18CF184AA11EA1FF093150 /* FFAuthorListReformerKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C450B600CF38028EB10D87BAA1AB489A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CA9127E7DFFCC73C02D7D21A5EED5027 /* FFAuthorListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = AED12D8A593BEF28C44A10B1D5D9193D /* FFAuthorListReformerKeys.m */; };
+		DC8BE24017A1E332A9AA33A577F713CC /* Pods-CGReformerKeysKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417FAE2212CA6D5005AE8A3859876199 /* Pods-CGReformerKeysKit_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FA1BFEC7B5EA387AD511C6B5A495CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D833A2E84EE66C6ED7742A215A665BDA;
+			remoteInfo = CGReformerKeysKit;
+		};
+		F7A78BB9F6404060C198A7C89341E4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D293D98054508C287B2A02DF59C28675;
+			remoteInfo = "Pods-CGReformerKeysKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0112EB38A351CC4A3A235EDE2EC5B110 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013D1FEB77DBF04F9CB2735EFB876ACD /* Pods-CGReformerKeysKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGReformerKeysKit_Example-resources.sh"; sourceTree = "<group>"; };
+		157388C6DEC9D9DE76D36942DD51F8F0 /* Pods-CGReformerKeysKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGReformerKeysKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		213729C1A577EF50AB1C878A6A05A585 /* Pods-CGReformerKeysKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGReformerKeysKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23B7451B545B960C3E2B4EF6EECCA32D /* Pods-CGReformerKeysKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGReformerKeysKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2C1894DC1ADCA0DEA74368A39ADC6A01 /* FFSpecialListReformerKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFSpecialListReformerKeys.m; sourceTree = "<group>"; };
+		2D13F8846119A1AD268ECB8E761938FC /* Pods-CGReformerKeysKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGReformerKeysKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30E3B9CC1DFFEA4974E20E90CA8E73D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417FAE2212CA6D5005AE8A3859876199 /* Pods-CGReformerKeysKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGReformerKeysKit_Example-dummy.m"; sourceTree = "<group>"; };
+		440D2F8AA175D61D27D2671A300D3158 /* Pods_CGReformerKeysKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CGReformerKeysKit_Tests.framework; path = "Pods-CGReformerKeysKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5EB5C3ABF69E33E67873A9CA6A772E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D67BB005BD35407624489F46483D83F /* Pods-CGReformerKeysKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGReformerKeysKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D7CE7C5C078124F85DD77CBB79DED73 /* CGReformerKeysKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CGReformerKeysKit.framework; path = CGReformerKeysKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E4923C6FC2751573A45B3C2CD3C756 /* Pods-CGReformerKeysKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGReformerKeysKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CA31728A8411064F90454902CB21193 /* Pods-CGReformerKeysKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGReformerKeysKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		81B2F2ABD5F2087D4A1307E7529853CC /* Pods-CGReformerKeysKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGReformerKeysKit_Example.modulemap"; sourceTree = "<group>"; };
+		84605DDF51BDBE530CBA55205A0D2D74 /* FFSpecialListReformerKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSpecialListReformerKeys.h; sourceTree = "<group>"; };
+		8929F471BE7D499982463758465E7949 /* Pods-CGReformerKeysKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGReformerKeysKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B858D6C1457DBAAC7F91222A5B0D780 /* CGReformerKeysKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGReformerKeysKit-dummy.m"; sourceTree = "<group>"; };
+		9110AD12BFAF5E985AF0C61BA6583823 /* Pods-CGReformerKeysKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGReformerKeysKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7FE1F06CB3C3F642076230668F479D0 /* Pods_CGReformerKeysKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CGReformerKeysKit_Example.framework; path = "Pods-CGReformerKeysKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED12D8A593BEF28C44A10B1D5D9193D /* FFAuthorListReformerKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFAuthorListReformerKeys.m; sourceTree = "<group>"; };
+		B0D6D25ADF42402ED98C55E50EA14023 /* Pods-CGReformerKeysKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGReformerKeysKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B223F6857792DEF6BE2B6B86123B9587 /* CGReformerKeysKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGReformerKeysKit-prefix.pch"; sourceTree = "<group>"; };
+		BFCFE5579D18CF184AA11EA1FF093150 /* FFAuthorListReformerKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFAuthorListReformerKeys.h; sourceTree = "<group>"; };
+		C1E4898C56CA977AEF896286B35A39A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3AAF0195527080951D58507135185CC /* CGReformerKeysKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGReformerKeysKit-umbrella.h"; sourceTree = "<group>"; };
+		CB04B76D4CBE6056FB97225BD9799716 /* Pods-CGReformerKeysKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGReformerKeysKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D271F3CD1EFBF4FE6B59BFFEB7B1393D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D2FE6538EA01CED16D6B661DCE07E34D /* CGReformerKeysKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CGReformerKeysKit.modulemap; sourceTree = "<group>"; };
+		D5679207E6BCB38923305CDAAF4FD99C /* Pods-CGReformerKeysKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGReformerKeysKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D779607F0BA65A417A7DAB123FD78403 /* Pods-CGReformerKeysKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGReformerKeysKit_Tests.modulemap"; sourceTree = "<group>"; };
+		DB936D0DDA11E7ED6B4C3F13B65F5857 /* CGReformerKeysKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGReformerKeysKit.xcconfig; sourceTree = "<group>"; };
+		DCD644AB9557F729660E493CB6052C0E /* CGReformerKeysKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CGReformerKeysKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EDE55A1AF5C5B9C8DBEB1808F9948B58 /* Pods-CGReformerKeysKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGReformerKeysKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		EF6AAB3447A2F5C972B671748C5C7897 /* Pods-CGReformerKeysKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGReformerKeysKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBC3900708662BC21E81DC330A165B2E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CGReformerKeysKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		532FC6BC6269D3402740AF091BF12833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486018EC56FCD38C60BF3EA75A08B788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5765AB02DF61E37D902A2F840DE24E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E70129012B1B39E4F82C5F22AB98A8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D64C66CE7A14DC534C2CB7E46B2BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C450B600CF38028EB10D87BAA1AB489A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D471C083C23F4A88929573BB2B125D9 /* Pods-CGReformerKeysKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C5EB5C3ABF69E33E67873A9CA6A772E /* Info.plist */,
+				81B2F2ABD5F2087D4A1307E7529853CC /* Pods-CGReformerKeysKit_Example.modulemap */,
+				8929F471BE7D499982463758465E7949 /* Pods-CGReformerKeysKit_Example-acknowledgements.markdown */,
+				157388C6DEC9D9DE76D36942DD51F8F0 /* Pods-CGReformerKeysKit_Example-acknowledgements.plist */,
+				417FAE2212CA6D5005AE8A3859876199 /* Pods-CGReformerKeysKit_Example-dummy.m */,
+				B0D6D25ADF42402ED98C55E50EA14023 /* Pods-CGReformerKeysKit_Example-frameworks.sh */,
+				013D1FEB77DBF04F9CB2735EFB876ACD /* Pods-CGReformerKeysKit_Example-resources.sh */,
+				9110AD12BFAF5E985AF0C61BA6583823 /* Pods-CGReformerKeysKit_Example-umbrella.h */,
+				4D67BB005BD35407624489F46483D83F /* Pods-CGReformerKeysKit_Example.debug.xcconfig */,
+				213729C1A577EF50AB1C878A6A05A585 /* Pods-CGReformerKeysKit_Example.release.xcconfig */,
+			);
+			name = "Pods-CGReformerKeysKit_Example";
+			path = "Target Support Files/Pods-CGReformerKeysKit_Example";
+			sourceTree = "<group>";
+		};
+		1A840DD6BB3423E4FBB35D4617DBA058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7CE7C5C078124F85DD77CBB79DED73 /* CGReformerKeysKit.framework */,
+				A7FE1F06CB3C3F642076230668F479D0 /* Pods_CGReformerKeysKit_Example.framework */,
+				440D2F8AA175D61D27D2671A300D3158 /* Pods_CGReformerKeysKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285D7F897948B4A4BD0B6922E74BA2AB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FDDF94951095F961F82FD8D95D4BFF7 /* CGReformerKeysKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B62C6C451652DC8B4AAB55C40DAA28B /* reformerKeys */ = {
+			isa = PBXGroup;
+			children = (
+				BFCFE5579D18CF184AA11EA1FF093150 /* FFAuthorListReformerKeys.h */,
+				AED12D8A593BEF28C44A10B1D5D9193D /* FFAuthorListReformerKeys.m */,
+				84605DDF51BDBE530CBA55205A0D2D74 /* FFSpecialListReformerKeys.h */,
+				2C1894DC1ADCA0DEA74368A39ADC6A01 /* FFSpecialListReformerKeys.m */,
+			);
+			name = reformerKeys;
+			path = CGReformerKeysKit/Classes/reformerKeys;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78EEE22CAA7F3D63BEEEDC08CE91C0F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DCD644AB9557F729660E493CB6052C0E /* CGReformerKeysKit.podspec */,
+				D271F3CD1EFBF4FE6B59BFFEB7B1393D /* LICENSE */,
+				C1E4898C56CA977AEF896286B35A39A8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				285D7F897948B4A4BD0B6922E74BA2AB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1A840DD6BB3423E4FBB35D4617DBA058 /* Products */,
+				8735DEEB63188DC702BAFCBB90EF65B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8735DEEB63188DC702BAFCBB90EF65B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D471C083C23F4A88929573BB2B125D9 /* Pods-CGReformerKeysKit_Example */,
+				F58BCE54CEA219D459A354C09DF25E61 /* Pods-CGReformerKeysKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FDDF94951095F961F82FD8D95D4BFF7 /* CGReformerKeysKit */ = {
+			isa = PBXGroup;
+			children = (
+				FBC3900708662BC21E81DC330A165B2E /* ReplaceMe.m */,
+				78EEE22CAA7F3D63BEEEDC08CE91C0F1 /* Pod */,
+				3B62C6C451652DC8B4AAB55C40DAA28B /* reformerKeys */,
+				D0E2C27E2A9D887A61AE8437C5421709 /* Support Files */,
+			);
+			name = CGReformerKeysKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E2C27E2A9D887A61AE8437C5421709 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2FE6538EA01CED16D6B661DCE07E34D /* CGReformerKeysKit.modulemap */,
+				DB936D0DDA11E7ED6B4C3F13B65F5857 /* CGReformerKeysKit.xcconfig */,
+				8B858D6C1457DBAAC7F91222A5B0D780 /* CGReformerKeysKit-dummy.m */,
+				B223F6857792DEF6BE2B6B86123B9587 /* CGReformerKeysKit-prefix.pch */,
+				C3AAF0195527080951D58507135185CC /* CGReformerKeysKit-umbrella.h */,
+				0112EB38A351CC4A3A235EDE2EC5B110 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CGReformerKeysKit";
+			sourceTree = "<group>";
+		};
+		F58BCE54CEA219D459A354C09DF25E61 /* Pods-CGReformerKeysKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				30E3B9CC1DFFEA4974E20E90CA8E73D1 /* Info.plist */,
+				D779607F0BA65A417A7DAB123FD78403 /* Pods-CGReformerKeysKit_Tests.modulemap */,
+				2D13F8846119A1AD268ECB8E761938FC /* Pods-CGReformerKeysKit_Tests-acknowledgements.markdown */,
+				EF6AAB3447A2F5C972B671748C5C7897 /* Pods-CGReformerKeysKit_Tests-acknowledgements.plist */,
+				EDE55A1AF5C5B9C8DBEB1808F9948B58 /* Pods-CGReformerKeysKit_Tests-dummy.m */,
+				23B7451B545B960C3E2B4EF6EECCA32D /* Pods-CGReformerKeysKit_Tests-frameworks.sh */,
+				58E4923C6FC2751573A45B3C2CD3C756 /* Pods-CGReformerKeysKit_Tests-resources.sh */,
+				6CA31728A8411064F90454902CB21193 /* Pods-CGReformerKeysKit_Tests-umbrella.h */,
+				CB04B76D4CBE6056FB97225BD9799716 /* Pods-CGReformerKeysKit_Tests.debug.xcconfig */,
+				D5679207E6BCB38923305CDAAF4FD99C /* Pods-CGReformerKeysKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-CGReformerKeysKit_Tests";
+			path = "Target Support Files/Pods-CGReformerKeysKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F674FE27E1C43EB4DFEC30B42C3339F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD98E847ED367537BF8E3FFD06403A1 /* Pods-CGReformerKeysKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3834ECE7D75F55C530186D5256611DC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9753F7814BD96321DFFFDD78F4720 /* CGReformerKeysKit-umbrella.h in Headers */,
+				A242E62A006095CF68122F32E535C522 /* FFAuthorListReformerKeys.h in Headers */,
+				5FBE55F7B799F9BDC968DA2BEF3F85CE /* FFSpecialListReformerKeys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8C28433AB71A00297F880CF52839B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EE32DF04B098DBD86F0FEF90137C69 /* Pods-CGReformerKeysKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D293D98054508C287B2A02DF59C28675 /* Pods-CGReformerKeysKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD46326410727DE5EF06EEB70E344AB /* Build configuration list for PBXNativeTarget "Pods-CGReformerKeysKit_Example" */;
+			buildPhases = (
+				3FB8FB3A3D357D47B012110815A2CA58 /* Sources */,
+				F0D64C66CE7A14DC534C2CB7E46B2BD2 /* Frameworks */,
+				2F674FE27E1C43EB4DFEC30B42C3339F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6497813006EF25BED0840C96D2F76A80 /* PBXTargetDependency */,
+			);
+			name = "Pods-CGReformerKeysKit_Example";
+			productName = "Pods-CGReformerKeysKit_Example";
+			productReference = A7FE1F06CB3C3F642076230668F479D0 /* Pods_CGReformerKeysKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D833A2E84EE66C6ED7742A215A665BDA /* CGReformerKeysKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8893A57B7BBE2F9496C0626D72F3297 /* Build configuration list for PBXNativeTarget "CGReformerKeysKit" */;
+			buildPhases = (
+				FCC7E5C1DA63F34B4455890E73A1531A /* Sources */,
+				5765AB02DF61E37D902A2F840DE24E29 /* Frameworks */,
+				3834ECE7D75F55C530186D5256611DC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGReformerKeysKit;
+			productName = CGReformerKeysKit;
+			productReference = 4D7CE7C5C078124F85DD77CBB79DED73 /* CGReformerKeysKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8B1A8A3AE2AC43BFC8E551072F654B8 /* Pods-CGReformerKeysKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA714510DDFD366A2374C60D5D4596A8 /* Build configuration list for PBXNativeTarget "Pods-CGReformerKeysKit_Tests" */;
+			buildPhases = (
+				FB441A9946F7324DFF62D96D765E3CC4 /* Sources */,
+				532FC6BC6269D3402740AF091BF12833 /* Frameworks */,
+				7F8C28433AB71A00297F880CF52839B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56483D15B0E86EA826AF04380FBB63B /* PBXTargetDependency */,
+			);
+			name = "Pods-CGReformerKeysKit_Tests";
+			productName = "Pods-CGReformerKeysKit_Tests";
+			productReference = 440D2F8AA175D61D27D2671A300D3158 /* Pods_CGReformerKeysKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1A840DD6BB3423E4FBB35D4617DBA058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D833A2E84EE66C6ED7742A215A665BDA /* CGReformerKeysKit */,
+				D293D98054508C287B2A02DF59C28675 /* Pods-CGReformerKeysKit_Example */,
+				D8B1A8A3AE2AC43BFC8E551072F654B8 /* Pods-CGReformerKeysKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB8FB3A3D357D47B012110815A2CA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8BE24017A1E332A9AA33A577F713CC /* Pods-CGReformerKeysKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB441A9946F7324DFF62D96D765E3CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE5E0B696509C17605819E3CC41385 /* Pods-CGReformerKeysKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC7E5C1DA63F34B4455890E73A1531A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECD00E616AD673DBDABB633DAAC890B /* CGReformerKeysKit-dummy.m in Sources */,
+				CA9127E7DFFCC73C02D7D21A5EED5027 /* FFAuthorListReformerKeys.m in Sources */,
+				51FCF8BC02D01BD798D7A40D029ED8A0 /* FFSpecialListReformerKeys.m in Sources */,
+				17395D5D72AA13772DD582D6F7EB3B11 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6497813006EF25BED0840C96D2F76A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CGReformerKeysKit;
+			target = D833A2E84EE66C6ED7742A215A665BDA /* CGReformerKeysKit */;
+			targetProxy = 9FA1BFEC7B5EA387AD511C6B5A495CE2 /* PBXContainerItemProxy */;
+		};
+		F56483D15B0E86EA826AF04380FBB63B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CGReformerKeysKit_Example";
+			target = D293D98054508C287B2A02DF59C28675 /* Pods-CGReformerKeysKit_Example */;
+			targetProxy = F7A78BB9F6404060C198A7C89341E4C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F34077FA179D504CB4025D54896FDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB04B76D4CBE6056FB97225BD9799716 /* Pods-CGReformerKeysKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGReformerKeysKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGReformerKeysKit_Tests/Pods-CGReformerKeysKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3673B57108D277F251C28DFB7A838664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB936D0DDA11E7ED6B4C3F13B65F5857 /* CGReformerKeysKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CGReformerKeysKit/CGReformerKeysKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CGReformerKeysKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CGReformerKeysKit/CGReformerKeysKit.modulemap";
+				PRODUCT_MODULE_NAME = CGReformerKeysKit;
+				PRODUCT_NAME = CGReformerKeysKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		386301B8511F8E77B34C0B509EFAB6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D67BB005BD35407624489F46483D83F /* Pods-CGReformerKeysKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGReformerKeysKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGReformerKeysKit_Example/Pods-CGReformerKeysKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB77EDA75409CA458799D39FE4AA03E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5679207E6BCB38923305CDAAF4FD99C /* Pods-CGReformerKeysKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGReformerKeysKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGReformerKeysKit_Tests/Pods-CGReformerKeysKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6ADAE644A02EC28ADBFDF7B15FE7658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB936D0DDA11E7ED6B4C3F13B65F5857 /* CGReformerKeysKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CGReformerKeysKit/CGReformerKeysKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CGReformerKeysKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CGReformerKeysKit/CGReformerKeysKit.modulemap";
+				PRODUCT_MODULE_NAME = CGReformerKeysKit;
+				PRODUCT_NAME = CGReformerKeysKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD9FA407AAC1CE01119B272AC791A234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213729C1A577EF50AB1C878A6A05A585 /* Pods-CGReformerKeysKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGReformerKeysKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGReformerKeysKit_Example/Pods-CGReformerKeysKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8893A57B7BBE2F9496C0626D72F3297 /* Build configuration list for PBXNativeTarget "CGReformerKeysKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3673B57108D277F251C28DFB7A838664 /* Debug */,
+				F6ADAE644A02EC28ADBFDF7B15FE7658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD46326410727DE5EF06EEB70E344AB /* Build configuration list for PBXNativeTarget "Pods-CGReformerKeysKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386301B8511F8E77B34C0B509EFAB6F9 /* Debug */,
+				FD9FA407AAC1CE01119B272AC791A234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA714510DDFD366A2374C60D5D4596A8 /* Build configuration list for PBXNativeTarget "Pods-CGReformerKeysKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F34077FA179D504CB4025D54896FDD8 /* Debug */,
+				EB77EDA75409CA458799D39FE4AA03E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

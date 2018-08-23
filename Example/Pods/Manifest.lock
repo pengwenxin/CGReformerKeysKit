@@ -1,0 +1,16 @@
+PODS:
+  - CGReformerKeysKit (1)
+
+DEPENDENCIES:
+  - CGReformerKeysKit (from `../`)
+
+EXTERNAL SOURCES:
+  CGReformerKeysKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGReformerKeysKit: d05c0cae55c459425416d8d1eb3f437b41461e2c
+
+PODFILE CHECKSUM: 71cd165459b9590d54e4eaaa9c5d79d48b3a58e6
+
+COCOAPODS: 1.5.3
