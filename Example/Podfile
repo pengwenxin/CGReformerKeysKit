@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CGReformerKeysKit_Example' do
+  pod 'CGReformerKeysKit', :path => '../'
+
+  target 'CGReformerKeysKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
